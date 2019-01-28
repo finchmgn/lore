@@ -1,0 +1,5 @@
+var acrostiaUrl = location.href;
+var acrostiaUrlSegment = acrostiaUrl.split('/');
+var acrostiaUrlLastSegment = acrostiaUrlSegment.pop() || acrostiaUrlSegment.pop(); 
+
+console.log(acrostiaUrlLastSegment);
